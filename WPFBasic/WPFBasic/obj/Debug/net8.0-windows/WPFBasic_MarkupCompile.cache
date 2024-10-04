@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\WPF\WPFBasic\WPFBasic\App.xaml
-31765690356
+5-1964107320
 
-6-1504999357
+8-994519910
 198-556154604
-MainWindow.xaml;Page1.xaml;Page2.xaml;
+DemoCanvasPanel.xaml;MainWindow.xaml;Page1.xaml;Page2.xaml;TestTemplateAndStylePage.xaml;
 
-True
+False
 

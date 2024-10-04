@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPFBasic.DemoCanvasPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFBasic"
+        mc:Ignorable="d"
+        Title="DemoCanvasPanel" Height="300" Width="400">
+    <Grid>
+        <Canvas Background="LightBlue">
+            <Label x:Name="LabelInstructions" Content="Enter car information"
+                FontSize="20" Width="328" Height="33" Canvas.Left="17" Canvas.Top="14" 
+                   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+            <Label x:Name="LabelCarName" Content="Car Name" Canvas.Left="17" Canvas.Top="60"/>
+            <TextBox x:Name="TextBoxCarName" Canvas.Left="94" Canvas.Top="60" Width="280" Height="25"/>
+
+            <Label x:Name="LabelColor" Content="Color" Canvas.Left="17" Canvas.Top="120"/>
+            <TextBox x:Name="TextBoxColor" Canvas.Left="94" Canvas.Top="120" Width="280" Height="25"/>
+
+            <Label x:Name="LabelBrand" Content="Brand" Canvas.Left="17" Canvas.Top="180"/>
+            <TextBox x:Name="TextBoxBrand" Canvas.Left="94" Canvas.Top="180" Width="280" Height="25"/>
+            
+            <Button x:Name="ButtonDisplay" Content="Display" Canvas.Left="94" Canvas.Top="225"
+                Width="80" Height="25" Click="ButtonDisplay_Click"/>
+        </Canvas>
+    </Grid>
+</Window>
