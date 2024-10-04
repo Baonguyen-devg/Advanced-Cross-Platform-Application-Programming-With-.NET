@@ -20,5 +20,17 @@ namespace WPFBasic
         {
             InitializeComponent();
         }
+
+        //Show Page01
+        private void BtnToPage01_Click(object sender, RoutedEventArgs routedEventArgs)
+        {
+            frMain.Content = new Page1();
+        }
+
+        //Show Page02
+        private void BtnToPage02_Click(object sender, RoutedEventArgs rutedEventArgs)
+        {
+            frMain.Content = new Page2();
+        }
     }
 }

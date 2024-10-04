@@ -7,9 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="344" Width="670">
     <Grid Margin="0, 0, 0, -6">
+
         <TextBlock Text="Welcome to WPF" TextAlignment="Center"
-            HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap"
-            Height="67" Width="387" Margin="152, 115, 0, 0" FontSize="48">
-        </TextBlock>
+            HorizontalAlignment="Center" TextWrapping="Wrap" Width="386" FontSize="48" Margin="0,42,0,230"/>
+
+        <TextBox Name="TextBoxTest1" Text="Hello World" Margin="63, 100, 62, 118"
+                 Padding="5, 5, 5, 5" Height="50" Width="500">
+        </TextBox>
+        <Button Name="ButtonTest1" Margin="188, 185, 185, 84" 
+                Width="100" Height="20">
+            Click here
+        </Button>
+
+        <Frame x:Name="frMain" VerticalAlignment="Stretch" NavigationUIVisibility="Visible"/>
+        <Button Name="GoToPage01" Content="To page 01" Click="BtnToPage01_Click"
+            HorizontalAlignment="Left" Margin="256,275,0,31" Width="80" Height="28">
+        </Button>
+        <Button Name="GoToPage02" Content="To page 02" Click="BtnToPage02_Click"
+            HorizontalAlignment="Left" Margin="348,275,0,31" Width="79" Height="28">
+        </Button>
+
     </Grid>
 </Window>

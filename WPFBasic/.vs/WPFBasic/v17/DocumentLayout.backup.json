@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\WPF\\WPFBasic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|d:\\wpf\\wpfbasic\\wpfbasic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|solutionrelative:wpfbasic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|d:\\wpf\\wpfbasic\\wpfbasic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|solutionrelative:wpfbasic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|d:\\wpf\\wpfbasic\\wpfbasic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|solutionrelative:wpfbasic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|d:\\wpf\\wpfbasic\\wpfbasic\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|solutionrelative:wpfbasic\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|d:\\wpf\\wpfbasic\\wpfbasic\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|solutionrelative:wpfbasic\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|d:\\wpf\\wpfbasic\\wpfbasic\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C7A21F-8692-461C-AF69-50D418E705CF}|WPFBasic\\WPFBasic.csproj|solutionrelative:wpfbasic\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 159,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,25 +62,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\WPF\\WPFBasic\\WPFBasic\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPFBasic\\MainWindow.xaml",
-              "ToolTip": "D:\\WPF\\WPFBasic\\WPFBasic\\MainWindow.xaml",
-              "RelativeToolTip": "WPFBasic\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-03T09:38:31.072Z",
+              "DocumentIndex": 4,
+              "Title": "Page1.xaml.cs",
+              "DocumentMoniker": "D:\\WPF\\WPFBasic\\WPFBasic\\Page1.xaml.cs",
+              "RelativeDocumentMoniker": "WPFBasic\\Page1.xaml.cs",
+              "ToolTip": "D:\\WPF\\WPFBasic\\WPFBasic\\Page1.xaml.cs",
+              "RelativeToolTip": "WPFBasic\\Page1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T04:33:09.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\WPF\\WPFBasic\\WPFBasic\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPFBasic\\MainWindow.xaml.cs",
               "ToolTip": "D:\\WPF\\WPFBasic\\WPFBasic\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPFBasic\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T09:38:28.211Z",
               "EditorCaption": ""
@@ -76,8 +89,8 @@
           ]
         },
         {
-          "DockedWidth": 260,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 241,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,11 +99,47 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Page2.xaml",
+              "DocumentMoniker": "D:\\WPF\\WPFBasic\\WPFBasic\\Page2.xaml",
+              "RelativeDocumentMoniker": "WPFBasic\\Page2.xaml",
+              "ToolTip": "D:\\WPF\\WPFBasic\\WPFBasic\\Page2.xaml",
+              "RelativeToolTip": "WPFBasic\\Page2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T04:40:52.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "D:\\WPF\\WPFBasic\\WPFBasic\\Page1.xaml",
+              "RelativeDocumentMoniker": "WPFBasic\\Page1.xaml",
+              "ToolTip": "D:\\WPF\\WPFBasic\\WPFBasic\\Page1.xaml",
+              "RelativeToolTip": "WPFBasic\\Page1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T04:33:02.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\WPF\\WPFBasic\\WPFBasic\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFBasic\\MainWindow.xaml",
+              "ToolTip": "D:\\WPF\\WPFBasic\\WPFBasic\\MainWindow.xaml",
+              "RelativeToolTip": "WPFBasic\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-03T09:38:31.072Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 414,
+          "DockedWidth": 260,
           "SelectedChildIndex": -1,
           "Children": [
             {
