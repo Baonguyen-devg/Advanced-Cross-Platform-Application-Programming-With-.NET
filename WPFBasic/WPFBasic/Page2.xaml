@@ -1,0 +1,17 @@
+﻿<Page x:Class="WPFBasic.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFBasic"
+      mc:Ignorable="d" 
+      d:DesignHeight="323" d:DesignWidth="500"
+      Title="Page02: How are you today?">
+
+    <Grid Background="White">
+        <TextBlock x:Name="TextBoxPage1Test1" Text="How are you today?"
+            FontSize="30" FontWeight="Bold" Foreground="RosyBrown" TextAlignment="Center" 
+            Margin="0,137,0,137">
+        </TextBlock>
+    </Grid>
+</Page>

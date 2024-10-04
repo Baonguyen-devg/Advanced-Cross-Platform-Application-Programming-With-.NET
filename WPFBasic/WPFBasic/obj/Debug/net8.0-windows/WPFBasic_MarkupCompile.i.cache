@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\WPF\WPFBasic\WPFBasic\App.xaml
-11407045341
+31765690356
 
-6-793177736
+8-1545064717
 198-556154604
-MainWindow.xaml;
+MainWindow.xaml;Page1.xaml;Page2.xaml;
 
-False
+True
 
