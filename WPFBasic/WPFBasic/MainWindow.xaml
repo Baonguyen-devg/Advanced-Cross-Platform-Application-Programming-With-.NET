@@ -6,26 +6,54 @@
         xmlns:local="clr-namespace:WPFBasic"
         mc:Ignorable="d"
         Title="MainWindow" Height="344" Width="670">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="50"></Setter>
+            <Setter Property="Foreground" Value="Chocolate"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+    </Window.Resources>
+
     <Grid Margin="0, 0, 0, -6">
 
         <TextBlock Text="Welcome to WPF" TextAlignment="Center"
-            HorizontalAlignment="Center" TextWrapping="Wrap" Width="386" FontSize="48" Margin="0,42,0,230"/>
+            HorizontalAlignment="Center" TextWrapping="Wrap" Width="424" Margin="0,42,0,230"/>
 
         <TextBox Name="TextBoxTest1" Text="Hello World" Margin="63, 100, 62, 118"
                  Padding="5, 5, 5, 5" Height="50" Width="500">
         </TextBox>
         <Button Name="ButtonTest1" Margin="188, 185, 185, 84" 
                 Width="100" Height="20">
-            Click here
+            <Button.Resources>
+                <Style x:Key="TextStyle">
+                    <Setter Property="ItemsControl.Foreground" Value="Yellow"/>
+                    <Setter Property="ItemsControl.FontFamily" Value="Tohoma"/>
+                    <Setter Property="ItemsControl.FontSize" Value="10px"/>
+                    <Setter Property="ItemsControl.FontWeight" Value="Bold"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Grid>
+                                    <Ellipse Fill="ForestGreen" StrokeThickness="1" Stroke="Red"/>
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"
+                                        Content="Hello World" Style="{StaticResource TextStyle}"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Resources>
         </Button>
 
-        <Frame x:Name="frMain" VerticalAlignment="Stretch" NavigationUIVisibility="Visible"/>
+        <Frame x:Name="frMain" VerticalAlignment="Stretch" NavigationUIVisibility="Visible" Navigated="frMain_Navigated"/>
         <Button Name="GoToPage01" Content="To page 01" Click="BtnToPage01_Click"
-            HorizontalAlignment="Left" Margin="256,275,0,31" Width="80" Height="28">
+            HorizontalAlignment="Left" Margin="252,233,0,73" Width="80" Height="28">
         </Button>
         <Button Name="GoToPage02" Content="To page 02" Click="BtnToPage02_Click"
-            HorizontalAlignment="Left" Margin="348,275,0,31" Width="79" Height="28">
+            HorizontalAlignment="Left" Margin="344,233,0,73" Width="79" Height="28">
         </Button>
-
     </Grid>
 </Window>

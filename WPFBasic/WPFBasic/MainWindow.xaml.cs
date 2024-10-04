@@ -18,6 +18,9 @@ namespace WPFBasic
     {
         public MainWindow()
         {
+            this.Title = "Welcome to WPF";
+            (this.Height, this.Width) = (1000, 1000);
+            this.WindowStyle = WindowStyle.ThreeDBorderWindow
             InitializeComponent();
         }
 
@@ -31,6 +34,11 @@ namespace WPFBasic
         private void BtnToPage02_Click(object sender, RoutedEventArgs rutedEventArgs)
         {
             frMain.Content = new Page2();
+        }
+
+        private void frMain_Navigated(object sender, NavigationEventArgs e)
+        {
+
         }
     }
 }
