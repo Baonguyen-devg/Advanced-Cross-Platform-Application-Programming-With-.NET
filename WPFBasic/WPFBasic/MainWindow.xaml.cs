@@ -20,7 +20,7 @@ namespace WPFBasic
         {
             this.Title = "Welcome to WPF";
             (this.Height, this.Width) = (1000, 1000);
-            this.WindowStyle = WindowStyle.ThreeDBorderWindow
+            this.WindowStyle = WindowStyle.ThreeDBorderWindow;
             InitializeComponent();
         }
 
