@@ -26,9 +26,9 @@ namespace WPFBasic
 
         private void ButtonDisplay_Click(object sender, RoutedEventArgs e)
         {
-            string carInformation = $"Car name: {TextBoxCarName.Text}\n" +
-                $"Color: {TextBoxColor.Text} \nBrand: {TextBoxBrand.Text}";
-            MessageBox.Show(carInformation, "Car Details");
+          /*  string carInformation = $"Car name: {TextBoxCarName.Text}\n" +
+                $"Color: {TextBoxColor.Text} \nBrand: {TextBoxBrand.Text}";*/
+           // MessageBox.Show(carInformation, "Car Details");
         }
     }
 }

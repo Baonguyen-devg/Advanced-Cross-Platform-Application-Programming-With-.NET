@@ -61,7 +61,7 @@ namespace WPFBasic {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFBasic;component/page1.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFBasic;V1.0.0.0;component/page1.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Page1.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
