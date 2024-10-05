@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="DemoCanvasPanel" Height="300" Width="400">
     <Grid>
-        <Canvas Background="LightBlue">
+        <!--<Canvas Background="LightBlue">
             <Label x:Name="LabelInstructions" Content="Enter car information"
-                FontSize="20" Width="328" Height="33" Canvas.Left="17" Canvas.Top="14" 
-                   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            FontSize="20" Width="328" Height="33" Canvas.Left="17" Canvas.Top="14" 
+                HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
             <Label x:Name="LabelCarName" Content="Car Name" Canvas.Left="17" Canvas.Top="60"/>
             <TextBox x:Name="TextBoxCarName" Canvas.Left="94" Canvas.Top="60" Width="280" Height="25"/>
@@ -20,9 +20,71 @@
 
             <Label x:Name="LabelBrand" Content="Brand" Canvas.Left="17" Canvas.Top="180"/>
             <TextBox x:Name="TextBoxBrand" Canvas.Left="94" Canvas.Top="180" Width="280" Height="25"/>
-            
+
             <Button x:Name="ButtonDisplay" Content="Display" Canvas.Left="94" Canvas.Top="225"
-                Width="80" Height="25" Click="ButtonDisplay_Click"/>
-        </Canvas>
+            Width="80" Height="25" Click="ButtonDisplay_Click"/>
+        </Canvas>-->
+
+        <!--<WrapPanel Background="AntiqueWhite" Orientation="Vertical">
+            <Label Name="InstructionName" Content="Enter car information"
+                   FontSize="20" Width="400"/>
+            
+            <Label Name="LabelCarName" Content="Car name: "/>
+            <TextBox Name="TextBoxCarName" Height="25" Width="280"/>
+
+            <Label Name="LabelColor" Content="Color: "/>
+            <TextBox Name="TextBoxColor" Height="25" Width="280"/>
+
+            <Label Name="LabelBrand" Content="Brand: "/>
+            <TextBox Name="TextBoxBrand" Height="25" Width="280"/>
+            
+            <Button Name="btnDisplay" Width="80"                 Margin="0,10,0,0" Content="Display"/>        </WrapPanel>-->
+        
+        <!--<StackPanel Margin="0,0,10,0">
+            <Label Name="InstructionName" Content="Enter car information"
+                 FontSize="20" Width="400"/>
+
+            <Label Name="LabelCarName" Content="Car name: "/>
+            <TextBox Name="TextBoxCarName" Height="25" Width="280"/>
+
+            <Label Name="LabelColor" Content="Color: "/>
+            <TextBox Name="TextBoxColor" Height="25" Width="280"/>
+
+            <Label Name="LabelBrand" Content="Brand: "/>
+            <TextBox Name="TextBoxBrand" Height="25" Width="280"/>
+
+            <Button Name="btnDisplay" Width="80"                 Margin="0,10,0,0" Content="Display"/>
+        </StackPanel>-->
+
+        <DockPanel Background="LightBlue">
+            <Button DockPanel.Dock="Top" Height="50">Top</Button>
+            <Button DockPanel.Dock="Bottom" Height="50">Bottom</Button>
+            <Button DockPanel.Dock="Left" Width="50">Left</Button>
+            <Button DockPanel.Dock="Right" Width="50">Right</Button>
+            <Button>Center</Button>
+        </DockPanel>
+        
+        <!--<Grid Background="LightBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="28"/>
+            </Grid.RowDefinitions>
+
+            <Label Content="Name: " Grid.Row="0" Grid.Column="0"/>
+            <Label Content="Email: " Grid.Row="1" Grid.Column="0"/>
+            <Label Content="Comment: " Grid.Row="2" Grid.Column="0"/>
+            <TextBox Grid.Row="0" Grid.Column="1" Margin="3"/>
+            <TextBox Grid.Row="1" Grid.Column="1" Margin="3"/>
+            <TextBox Grid.Row="2" Grid.Column="1" Margin="3"/>
+            <Button Content="Send" Grid.Row="3" Grid.Column="1"
+                    HorizontalAlignment="Center" MinWidth="80" Margin="3"/>
+        </Grid>-->
+        
     </Grid>
 </Window>

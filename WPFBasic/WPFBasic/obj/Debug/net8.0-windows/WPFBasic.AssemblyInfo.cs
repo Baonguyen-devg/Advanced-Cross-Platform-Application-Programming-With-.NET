@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPFBasic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9bd5b39ae4b2fd20e0690f5a51c9ba5f9147943")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69ea01f2115e0c8a7bb355fa8af2ded574b18e0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPFBasic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPFBasic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

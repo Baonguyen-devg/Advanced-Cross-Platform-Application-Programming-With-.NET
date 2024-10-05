@@ -53,7 +53,7 @@ namespace WPFBasic {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFBasic;component/testtemplateandstylepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFBasic;V1.0.0.0;component/testtemplateandstylepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TestTemplateAndStylePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
